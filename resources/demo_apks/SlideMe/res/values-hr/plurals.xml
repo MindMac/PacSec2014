@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="updates_available">
+        <item quantity="other">Dostupna su ažuriranja</item>
+        <item quantity="one">Dostupno je ažuriranje</item>
+    </plurals>
+    <plurals name="updates_available_count">
+        <item quantity="other">Ažurirano %d aplikacija.</item>
+        <item quantity="one">Ažurirana %d aplikacija.</item>
+    </plurals>
+    <plurals name="updated_apps_plural">
+        <item quantity="other">@string/updated_apps</item>
+        <item quantity="one">Ažurirana aplikacija</item>
+    </plurals>
+    <plurals name="webbuy_notification_title">
+        <item quantity="other">Kupili ste %d aplikacija</item>
+        <item quantity="one">Kupili ste jednu aplikaciju</item>
+    </plurals>
+</resources>

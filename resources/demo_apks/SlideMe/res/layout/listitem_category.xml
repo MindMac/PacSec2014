@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.slideme.sam.manager.view.touchme.BeveledRelativeLayout android:background="?backgroundListItemOdd" android:paddingLeft="40.0dip" android:paddingTop="16.0dip" android:paddingRight="24.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="end" android:id="@id/category_display_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ff34c8ae" android:gravity="center" android:id="@id/category_display_count" android:background="@drawable/bg_app_count" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="45.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</com.slideme.sam.manager.view.touchme.BeveledRelativeLayout>

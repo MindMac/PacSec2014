@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/username" style="@style/Widget.TextView.Slideme.Form.Title.Accent" />
+    <TextView android:id="@id/username" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.TextView.Slideme.Form.Title" />
+    <TextView android:textColor="@color/red" android:id="@id/registerIndicator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/limited_account_notice" style="@style/Widget.TextView.Slideme.Form.Title" />
+    <Button android:id="@id/registerButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:text="@string/fully_register" style="@style/Widget.Button.SlideMe" />
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/balance" style="@style/Widget.TextView.Slideme.Form.Title.Accent" />
+    <TextView android:id="@id/dev_wallet_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dev_wallet_balance" style="@style/Widget.TextView.Slideme.Form.Title" />
+    <TextView android:id="@id/dev_wallet" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.TextView.Slideme.Form.Value" />
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wallet_balance" style="@style/Widget.TextView.Slideme.Form.Title" />
+    <TextView android:id="@id/user_wallet" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/loading" style="@style/Widget.TextView.Slideme.Form.Value" />
+    <Button android:id="@id/topup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:text="@string/topup" style="@style/Widget.Button.SlideMe" />
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/purchased_items" style="@style/Widget.TextView.Slideme.Form.Title.Accent" />
+    <Button android:id="@id/storagelocker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:text="@string/open_storagelocker" style="@style/Widget.Button.SlideMe" />
+</LinearLayout>

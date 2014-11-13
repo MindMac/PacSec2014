@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SeekBar android:id="@id/score" android:layout_width="170.0dip" android:layout_height="wrap_content" android:max="9" android:progress="0" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/score" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="@dimen/textSizeMicro" android:id="@id/descr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/score" android:layout_below="@id/title" android:layout_alignParentLeft="true" />
+    <TextView android:id="@id/scoreText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/score" android:layout_alignParentRight="true" />
+</RelativeLayout>

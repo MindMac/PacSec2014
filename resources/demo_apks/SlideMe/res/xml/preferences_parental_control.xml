@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/header_settings_parental">
+        <com.slideme.sam.manager.view.preference.UnlockParentalPreference android:enabled="false" android:title="@string/title_settings_parental_unlock" android:key="@string/key_settings_unlock_parental" />
+        <com.slideme.sam.manager.view.preference.MultiselectListPreference android:entries="@array/parental_checklist_names" android:title="@string/title_settings_parental_checklist" android:key="@string/key_settings_parental_checklist" android:summary="@string/summary_settings_parental_checklist" android:defaultValue="@array/parental_checklist_values" android:entryValues="@array/parental_checklist_values" />
+        <com.slideme.sam.manager.view.preference.PinDialogPreference android:title="@string/title_settings_manage_pin" android:key="@string/key_settings_manage_pin" android:summary="@string/summary_settings_manage_pin" />
+        <CheckBoxPreference android:title="@string/title_settings_use_pin_to_download" android:key="@string/key_settings_use_pin_to_download" android:summary="@string/summary_settings_use_pin_to_download" android:dependency="@string/key_settings_manage_pin" android:defaultValue="@bool/default_settings_parental_use_pin_to_download" />
+        <CheckBoxPreference android:title="@string/title_settings_pin_for_purchases_only" android:key="@string/key_settings_pin_for_purchases_only" android:summary="@string/summary_settings_pin_for_purchases_only" android:dependency="@string/key_settings_use_pin_to_download" android:defaultValue="@bool/default_settings_pin_for_purchases_only" />
+    </PreferenceCategory>
+</PreferenceScreen>

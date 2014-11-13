@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sam" style="@style/Widget.TextView.Slideme.Form.Title.Accent" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sam_version_title" style="@style/Widget.TextView.Slideme.Form.Title" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sam_version" style="@style/Widget.TextView.Slideme.Form.Value" />
+        <TextView android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/partner_title" style="@style/Widget.TextView.Slideme.Form.Title" />
+        <TextView android:id="@id/partner" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.TextView.Slideme.Form.Value" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sysinfo_title_device" style="@style/Widget.TextView.Slideme.Form.Title.Accent" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/manufacturer" style="@style/Widget.TextView.Slideme.Form.Title" />
+        <TextView android:id="@id/manuValue" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.TextView.Slideme.Form.Value" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/model" style="@style/Widget.TextView.Slideme.Form.Title" />
+        <TextView android:id="@id/modelValue" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.TextView.Slideme.Form.Value" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/API_level" style="@style/Widget.TextView.Slideme.Form.Title" />
+        <TextView android:id="@id/apiValue" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.TextView.Slideme.Form.Value" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dpiclass" style="@style/Widget.TextView.Slideme.Form.Title" />
+        <TextView android:id="@id/dpiValue" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.TextView.Slideme.Form.Value" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/resolution" style="@style/Widget.TextView.Slideme.Form.Title" />
+        <TextView android:id="@id/resValue" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.TextView.Slideme.Form.Value" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ram" style="@style/Widget.TextView.Slideme.Form.Title" />
+        <TextView android:id="@id/ramValue" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.TextView.Slideme.Form.Value" />
+        <TextView android:id="@id/deviceIdTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="ID" style="@style/Widget.TextView.Slideme.Form.Title" />
+        <TextView android:id="@id/deviceIdValue" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.TextView.Slideme.Form.Value" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="AID" style="@style/Widget.TextView.Slideme.Form.Title" />
+        <TextView android:id="@id/aidValue" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.TextView.Slideme.Form.Value" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="MAC" style="@style/Widget.TextView.Slideme.Form.Title" />
+        <TextView android:id="@id/didValue" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.TextView.Slideme.Form.Value" />
+        <Button android:id="@id/support" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/support" style="@style/Widget.Button.SlideMe" />
+    </LinearLayout>
+</ScrollView>

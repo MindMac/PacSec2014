@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="updates_available">
+        <item quantity="other">更新できます</item>
+        <item quantity="one">更新できます</item>
+    </plurals>
+    <plurals name="updates_available_count">
+        <item quantity="other">%dアプリが更新されました。</item>
+        <item quantity="one">%dアプリが更新されました。</item>
+    </plurals>
+    <plurals name="updated_apps_plural">
+        <item quantity="other">@string/updated_apps</item>
+        <item quantity="one">更新されたアプリ</item>
+    </plurals>
+    <plurals name="webbuy_notification_title">
+        <item quantity="other">あなたは%d個の購入済アプリをお持ちです</item>
+        <item quantity="one">アプリを一つ購入しました</item>
+    </plurals>
+</resources>

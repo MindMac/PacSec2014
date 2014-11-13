@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.slideme.sam.manager.view.touchme.SafeViewFlipper android:layout_gravity="center" android:id="@id/flipper" android:layout_width="fill_parent" android:layout_height="fill_parent" android:inAnimation="@android:anim/fade_in" android:outAnimation="@android:anim/fade_out"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleLarge" />
+        <TextView android:layout_gravity="center" android:id="@id/message" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <WebView android:id="@id/webview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.slideme.sam.manager.view.touchme.SafeViewFlipper>

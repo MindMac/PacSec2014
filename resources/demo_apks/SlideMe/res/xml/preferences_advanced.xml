@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/header_settings_advanced">
+        <com.slideme.sam.manager.view.preference.IncompatibleAppsDialogPreference android:title="@string/title_settings_advanced_show_incompatible_apps" android:key="@string/key_settings_advanced_show_incompatible_apps" android:summary="@string/summary_settings_advanced_show_incompatible_apps" android:widgetLayout="@layout/widget_checkbox" android:defaultValue="@bool/default_settings_advanced_show_incompatible_apps" />
+        <CheckBoxPreference android:title="@string/title_settings_advanced_auto_download_new_version" android:key="@string/key_settings_advanced_auto_download_new_version" android:summary="@string/summary_settings_advanced_auto_download_new_version" android:defaultValue="@bool/default_settings_advanced_auto_download_new_version" />
+    </PreferenceCategory>
+</PreferenceScreen>

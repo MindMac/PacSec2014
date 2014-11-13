@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="updates_available">
+        <item quantity="other">업데이트 이용 가능</item>
+        <item quantity="one">업데이트 이용 가능</item>
+    </plurals>
+    <plurals name="updates_available_count">
+        <item quantity="other">%d개의 앱 업데이트 완료.</item>
+        <item quantity="one">%d개의 앱 업데이트 완료.</item>
+    </plurals>
+    <plurals name="updated_apps_plural">
+        <item quantity="other">@string/updated_apps</item>
+        <item quantity="one">업데이트된 앱</item>
+    </plurals>
+    <plurals name="webbuy_notification_title">
+        <item quantity="other">구매하신 앱이 %d개 있습니다</item>
+        <item quantity="one">1개의 앱을 구매하셨습니다</item>
+    </plurals>
+</resources>

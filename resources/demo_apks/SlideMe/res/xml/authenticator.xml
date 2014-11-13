@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<account-authenticator android:label="@string/sam_title" android:icon="@drawable/ic_home_logo" android:accountType="com.slideme.user_account" android:smallIcon="@drawable/ic_home_logo"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

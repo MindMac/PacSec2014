@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="updates_available">
+        <item quantity="other">Aktualizace jsou k dispozici</item>
+        <item quantity="one">Aktualizace je k dispozici</item>
+    </plurals>
+    <plurals name="updates_available_count">
+        <item quantity="other">%d aplikací aktualizováno.</item>
+        <item quantity="one">%d aplikace aktualizováno</item>
+    </plurals>
+    <plurals name="updated_apps_plural">
+        <item quantity="other">@string/updated_apps</item>
+        <item quantity="one">Aktualizovaná aplikace</item>
+    </plurals>
+    <plurals name="webbuy_notification_title">
+        <item quantity="other">Zakoupili jste %d aplikací</item>
+        <item quantity="one">Zakoupili jste jednu aplikaci</item>
+    </plurals>
+</resources>

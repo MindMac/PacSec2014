@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RatingBar android:id="@id/rating" android:layout_width="wrap_content" android:layout_height="wrap_content" android:stepSize="0.5" />
+        <EditText android:id="@id/review" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:minHeight="@dimen/dialogMinTextHeight" android:hint="@string/reviewTextHint" android:inputType="textCapSentences|textMultiLine" />
+        <EditText android:id="@id/video" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:hint="@string/videoHint" android:maxLines="1" android:ems="10" android:inputType="textShortMessage" android:imeOptions="actionNext" />
+    </LinearLayout>
+</ScrollView>

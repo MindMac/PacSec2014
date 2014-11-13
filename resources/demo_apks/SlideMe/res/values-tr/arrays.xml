@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="review_rate">
+        <item>Beğendim</item>
+        <item>Beğenmedim</item>
+        <item>Spam</item>
+    </string-array>
+    <string-array name="reportReasons">
+        <item>Nekompatibilní s mým zařízením</item>
+        <item>Seks içerikli</item>
+        <item>Fikri mülkiyet ihlali</item>
+        <item>Kötü</item>
+        <item>@string/other</item>
+    </string-array>
+    <array name="filter_primary">
+        <item>@string/show_all</item>
+        <item>En iyi incelemeler</item>
+        <item>Sürüme göre filtrele</item>
+        <item>Puana göre filtrele</item>
+    </array>
+    <string-array name="filter_secondary_rating">
+        <item>5 yıldız</item>
+        <item>4 yıldız</item>
+        <item>3 yıldız</item>
+        <item>2 yıldız</item>
+        <item>1 yıldız</item>
+        <item>Puansız</item>
+    </string-array>
+    <string-array name="front_page_titles">
+        <item>KATEGORİLER</item>
+        <item>ÖNE ÇIKTIĞI YERLER</item>
+        <item>► APPS</item>
+        <item>EN YENİ UYGULAMA</item>
+        <item>@string/trending</item>
+        <item>EN İYİ ÜCRETLİ UYGULAMA</item>
+        <item>EN İYİ ÜCRETSİZ UYGULAMA</item>
+        <item>VİDEOLU</item>
+        <item>TEKLİFLER</item>
+        <item>YEREL</item>
+    </string-array>
+    <string-array name="my_apps_tab_titles">
+        <item>HAFIZA DOLABI</item>
+        <item>BEDAVA</item>
+        <item>YER İMLERİ</item>
+    </string-array>
+    <string-array name="register_button_titles">
+        <item>Hızlı kayıt</item>
+        <item>Normal kayıt</item>
+    </string-array>
+    <string-array name="register_button_descr">
+        <item>Sadece uygulamalara gözatmanızı sağlar.</item>
+        <item>Eksiksiz SlideME deneyimi sağlar.</item>
+    </string-array>
+    <string-array name="sort_names">
+        <item>@string/popularity</item>
+        <item>@string/rating</item>
+        <item>@string/last_upd</item>
+        <item>@string/date_added_lat</item>
+        <item>@string/date_added_old</item>
+        <item>@string/alpha_az</item>
+        <item>@string/alpha_za</item>
+    </string-array>
+    <string-array name="approve_options">
+        <item>Onayla</item>
+        <item>Reddet</item>
+    </string-array>
+    <string-array name="filter_sort_names">
+        <item>@string/relevance</item>
+        <item>@string/popularity</item>
+        <item>@string/rating</item>
+        <item>@string/last_upd</item>
+        <item>@string/date_added_lat</item>
+        <item>@string/date_added_old</item>
+        <item>@string/alpha_az</item>
+        <item>@string/alpha_za</item>
+    </string-array>
+    <string-array name="filter_prices">
+        <item>@string/all</item>
+        <item>@string/paid</item>
+        <item>@string/free</item>
+    </string-array>
+    <string-array name="filter_screens">
+        <item>@string/all</item>
+        <item>@string/phone</item>
+        <item>@string/tablet</item>
+        <item>@string/tv</item>
+    </string-array>
+    <string-array name="filter_parental">
+        <item>@string/show_all</item>
+        <item>@string/esrb_rating_earlychildhood</item>
+        <item>@string/esrb_rating_everyone6plus</item>
+        <item>@string/esrb_rating_everyone10plus</item>
+        <item>@string/esrb_rating_teen13plus</item>
+        <item>@string/esrb_rating_mature</item>
+        <item>@string/esrb_rating_adults18plus</item>
+    </string-array>
+    <string-array name="filter_play">
+        <item>@string/any</item>
+        <item>@string/required</item>
+        <item>@string/not_required</item>
+    </string-array>
+    <string-array name="filter_vibrate">
+        <item>@string/any</item>
+        <item>@string/vibration_enabled_only</item>
+    </string-array>
+</resources>

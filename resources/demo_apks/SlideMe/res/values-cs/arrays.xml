@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="review_rate">
+        <item>Úspěch!</item>
+        <item>Neúspěšné</item>
+        <item>Spam</item>
+    </string-array>
+    <string-array name="reportReasons">
+        <item>Nekompatibilní s mým zařízením</item>
+        <item>Sexuální obsah</item>
+        <item>Porušení práv duševního vlastnictví</item>
+        <item>Škodlivý</item>
+        <item>@string/other</item>
+    </string-array>
+    <array name="filter_primary">
+        <item>@string/show_all</item>
+        <item>Nejlepší recenze</item>
+        <item>Filtrovat podle verze</item>
+        <item>Filtrovat podle hodnocení</item>
+    </array>
+    <string-array name="filter_secondary_rating">
+        <item>5 hvězdiček</item>
+        <item>4 hvězdičky</item>
+        <item>3 hvězdičky</item>
+        <item>2 hvězdičky</item>
+        <item>1 hvězdička</item>
+        <item>Neohodnoceno</item>
+    </string-array>
+    <string-array name="front_page_titles">
+        <item>KATEGORIE</item>
+        <item>NABÍDKA</item>
+        <item>► APPS</item>
+        <item>TOP NOVÉ</item>
+        <item>@string/trending</item>
+        <item>TOP PLACENÉ</item>
+        <item>TOP ZDARMA</item>
+        <item>S VIDEEM</item>
+        <item>NABÍDKY</item>
+        <item>MÍSTNÍ</item>
+    </string-array>
+    <string-array name="my_apps_tab_titles">
+        <item>ÚLOŽIŠTĚ</item>
+        <item>ZDARMA</item>
+        <item>ZÁLOŽKY</item>
+    </string-array>
+    <string-array name="register_button_titles">
+        <item>Rychlá registrace</item>
+        <item>Normální registrace</item>
+    </string-array>
+    <string-array name="register_button_descr">
+        <item>Umožní vám pouze procházet aplikace.</item>
+        <item>Umožňuje plně zažít SlideME.</item>
+    </string-array>
+    <string-array name="sort_names">
+        <item>@string/popularity</item>
+        <item>@string/rating</item>
+        <item>@string/last_upd</item>
+        <item>@string/date_added_lat</item>
+        <item>@string/date_added_old</item>
+        <item>@string/alpha_az</item>
+        <item>@string/alpha_za</item>
+    </string-array>
+    <string-array name="approve_options">
+        <item>Schválit</item>
+        <item>Odepřít</item>
+    </string-array>
+    <string-array name="filter_sort_names">
+        <item>@string/relevance</item>
+        <item>@string/popularity</item>
+        <item>@string/rating</item>
+        <item>@string/last_upd</item>
+        <item>@string/date_added_lat</item>
+        <item>@string/date_added_old</item>
+        <item>@string/alpha_az</item>
+        <item>@string/alpha_za</item>
+    </string-array>
+    <string-array name="filter_prices">
+        <item>@string/all</item>
+        <item>@string/paid</item>
+        <item>@string/free</item>
+    </string-array>
+    <string-array name="filter_screens">
+        <item>@string/all</item>
+        <item>@string/phone</item>
+        <item>@string/tablet</item>
+        <item>@string/tv</item>
+    </string-array>
+    <string-array name="filter_parental">
+        <item>@string/show_all</item>
+        <item>@string/esrb_rating_earlychildhood</item>
+        <item>@string/esrb_rating_everyone6plus</item>
+        <item>@string/esrb_rating_everyone10plus</item>
+        <item>@string/esrb_rating_teen13plus</item>
+        <item>@string/esrb_rating_mature</item>
+        <item>@string/esrb_rating_adults18plus</item>
+    </string-array>
+    <string-array name="filter_play">
+        <item>@string/any</item>
+        <item>@string/required</item>
+        <item>@string/not_required</item>
+    </string-array>
+    <string-array name="filter_vibrate">
+        <item>@string/any</item>
+        <item>@string/vibration_enabled_only</item>
+    </string-array>
+</resources>

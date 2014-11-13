@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="updates_available">
+        <item quantity="other">Pembaruan tersedia</item>
+        <item quantity="one">Pembaruan tersedia</item>
+    </plurals>
+    <plurals name="updates_available_count">
+        <item quantity="other">%d aplikasi diperbarui.</item>
+        <item quantity="one">%d aplikasi diperbarui.</item>
+    </plurals>
+    <plurals name="updated_apps_plural">
+        <item quantity="other">@string/updated_apps</item>
+        <item quantity="one">Aplikasi yang diperbarui</item>
+    </plurals>
+    <plurals name="webbuy_notification_title">
+        <item quantity="other">Anda telah membeli %d aplikasi</item>
+        <item quantity="one">Anda telah membeli satu aplikasi</item>
+    </plurals>
+</resources>

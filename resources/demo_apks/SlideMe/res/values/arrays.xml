@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="themeEntries">
+        <item>Dark</item>
+        <item>Light</item>
+    </string-array>
+    <string-array name="themeValues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="parental_checklist_values">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+    </string-array>
+    <string-array name="parental_checklist_names">
+        <item>@string/esrb_rating_earlychildhood</item>
+        <item>@string/esrb_rating_everyone6plus</item>
+        <item>@string/esrb_rating_everyone10plus</item>
+        <item>@string/esrb_rating_teen13plus</item>
+        <item>@string/esrb_rating_mature</item>
+        <item>@string/esrb_rating_adults18plus</item>
+    </string-array>
+    <string-array name="default_webbuy_trusted_hosts">
+        <item>@string/SLIDEME_WEBBUY_URL</item>
+        <item>@string/SLIDEME_TOPUP_URL</item>
+        <item>@string/SLIDEME_EULA_URL</item>
+        <item>@string/SLIDEME_WEB_URL</item>
+        <item>@string/SLIDEME_QUESTIONNAIRE_URL</item>
+        <item>https://paypal.com</item>
+        <item>https://www.paypal.com</item>
+        <item>https://sandbox.paypal.com</item>
+        <item>https://www.amazon.com</item>
+        <item>https://authorize.payments-sandbox.amazon.com</item>
+        <item>https://authorize.payments.amazon.com</item>
+        <item>https://m.slideme.org/dcs/transaction/</item>
+        <item>https://m.slideme.org/user/</item>
+        <item>https://m.staging.slideme.org</item>
+        <item>https://sam.slideme.org/user/</item>
+        <item>https://sam.slideme.org/dcs/</item>
+        <item>https://sam.slideme.org/</item>
+        <item>http://sam.slideme.org/</item>
+    </string-array>
+    <string-array name="review_rate">
+        <item>Thumbs up</item>
+        <item>Thumbs down</item>
+        <item>Spam</item>
+    </string-array>
+    <string-array name="reportReasons">
+        <item>Incompatible with my device</item>
+        <item>Sexual content</item>
+        <item>Intellectual property infringement</item>
+        <item>Malicious</item>
+        <item>@string/other</item>
+    </string-array>
+    <array name="filter_primary">
+        <item>@string/show_all</item>
+        <item>Best reviews</item>
+        <item>Filter by version</item>
+        <item>Filter by rating</item>
+    </array>
+    <string-array name="filter_secondary_rating">
+        <item>5 stars</item>
+        <item>4 stars</item>
+        <item>3 stars</item>
+        <item>2 stars</item>
+        <item>1 stars</item>
+        <item>No rating</item>
+    </string-array>
+    <string-array name="front_page_titles">
+        <item>CATEGORIES</item>
+        <item>FEATURED</item>
+        <item>► APPS</item>
+        <item>TOP NEW</item>
+        <item>@string/trending</item>
+        <item>TOP PAID</item>
+        <item>TOP FREE</item>
+        <item>WITH VIDEO</item>
+        <item>OFFERS</item>
+        <item>LOCAL</item>
+    </string-array>
+    <string-array name="my_apps_tab_titles">
+        <item>STORAGELOCKER</item>
+        <item>FREE</item>
+        <item>BOOKMARKS</item>
+    </string-array>
+    <string-array name="register_button_titles">
+        <item>Quick registration</item>
+        <item>Normal registration</item>
+    </string-array>
+    <string-array name="register_button_descr">
+        <item>Only allows you to browse apps.</item>
+        <item>Enables the full SlideME experience.</item>
+    </string-array>
+    <string-array name="sort_names">
+        <item>@string/popularity</item>
+        <item>@string/rating</item>
+        <item>@string/last_upd</item>
+        <item>@string/date_added_lat</item>
+        <item>@string/date_added_old</item>
+        <item>@string/alpha_az</item>
+        <item>@string/alpha_za</item>
+    </string-array>
+    <string-array name="approve_options">
+        <item>Approve</item>
+        <item>Deny</item>
+    </string-array>
+    <string-array name="filter_sort_names">
+        <item>@string/relevance</item>
+        <item>@string/popularity</item>
+        <item>@string/rating</item>
+        <item>@string/last_upd</item>
+        <item>@string/date_added_lat</item>
+        <item>@string/date_added_old</item>
+        <item>@string/alpha_az</item>
+        <item>@string/alpha_za</item>
+    </string-array>
+    <string-array name="filter_prices">
+        <item>@string/all</item>
+        <item>@string/paid</item>
+        <item>@string/free</item>
+    </string-array>
+    <string-array name="filter_screens">
+        <item>@string/all</item>
+        <item>@string/phone</item>
+        <item>@string/tablet</item>
+        <item>@string/tv</item>
+    </string-array>
+    <string-array name="filter_parental">
+        <item>@string/show_all</item>
+        <item>@string/esrb_rating_earlychildhood</item>
+        <item>@string/esrb_rating_everyone6plus</item>
+        <item>@string/esrb_rating_everyone10plus</item>
+        <item>@string/esrb_rating_teen13plus</item>
+        <item>@string/esrb_rating_mature</item>
+        <item>@string/esrb_rating_adults18plus</item>
+    </string-array>
+    <string-array name="filter_play">
+        <item>@string/any</item>
+        <item>@string/required</item>
+        <item>@string/not_required</item>
+    </string-array>
+    <string-array name="filter_vibrate">
+        <item>@string/any</item>
+        <item>@string/vibration_enabled_only</item>
+    </string-array>
+    <string-array name="review_defaults">
+        <item>"Very bad app. Don't bother."</item>
+        <item>Disliked this app.</item>
+        <item>Average app.</item>
+        <item>Good app, great value.</item>
+        <item>Great app, would highly recommend it!</item>
+    </string-array>
+</resources>

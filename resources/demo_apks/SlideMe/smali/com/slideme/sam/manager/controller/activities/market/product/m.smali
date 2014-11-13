@@ -1,0 +1,95 @@
+.class Lcom/slideme/sam/manager/controller/activities/market/product/m;
+.super Ljava/lang/Object;
+.source "TermsActivity.java"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field final synthetic a:Lcom/slideme/sam/manager/controller/activities/market/product/l;
+
+.field private final synthetic b:Ljava/lang/String;
+
+
+# direct methods
+.method constructor <init>(Lcom/slideme/sam/manager/controller/activities/market/product/l;Ljava/lang/String;)V
+    .locals 0
+
+    .prologue
+    .line 1
+    iput-object p1, p0, Lcom/slideme/sam/manager/controller/activities/market/product/m;->a:Lcom/slideme/sam/manager/controller/activities/market/product/l;
+
+    iput-object p2, p0, Lcom/slideme/sam/manager/controller/activities/market/product/m;->b:Ljava/lang/String;
+
+    .line 132
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public run()V
+    .locals 3
+
+    .prologue
+    const v2, 0x7f070082
+
+    .line 135
+    iget-object v0, p0, Lcom/slideme/sam/manager/controller/activities/market/product/m;->b:Ljava/lang/String;
+
+    if-eqz v0, :cond_0
+
+    iget-object v0, p0, Lcom/slideme/sam/manager/controller/activities/market/product/m;->b:Ljava/lang/String;
+
+    const-string v1, ""
+
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    .line 136
+    :cond_0
+    iget-object v0, p0, Lcom/slideme/sam/manager/controller/activities/market/product/m;->a:Lcom/slideme/sam/manager/controller/activities/market/product/l;
+
+    invoke-static {v0}, Lcom/slideme/sam/manager/controller/activities/market/product/l;->a(Lcom/slideme/sam/manager/controller/activities/market/product/l;)Lcom/slideme/sam/manager/controller/activities/market/product/TermsActivity;
+
+    move-result-object v0
+
+    invoke-virtual {v0, v2}, Lcom/slideme/sam/manager/controller/activities/market/product/TermsActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/slideme/sam/manager/view/touchme/ExpandableTextContainer;
+
+    const v1, 0x7f050147
+
+    invoke-virtual {v0, v1}, Lcom/slideme/sam/manager/view/touchme/ExpandableTextContainer;->setText(I)V
+
+    .line 139
+    :goto_0
+    return-void
+
+    .line 138
+    :cond_1
+    iget-object v0, p0, Lcom/slideme/sam/manager/controller/activities/market/product/m;->a:Lcom/slideme/sam/manager/controller/activities/market/product/l;
+
+    invoke-static {v0}, Lcom/slideme/sam/manager/controller/activities/market/product/l;->a(Lcom/slideme/sam/manager/controller/activities/market/product/l;)Lcom/slideme/sam/manager/controller/activities/market/product/TermsActivity;
+
+    move-result-object v0
+
+    invoke-virtual {v0, v2}, Lcom/slideme/sam/manager/controller/activities/market/product/TermsActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/slideme/sam/manager/view/touchme/ExpandableTextContainer;
+
+    iget-object v1, p0, Lcom/slideme/sam/manager/controller/activities/market/product/m;->b:Ljava/lang/String;
+
+    invoke-virtual {v0, v1}, Lcom/slideme/sam/manager/view/touchme/ExpandableTextContainer;->setText(Ljava/lang/CharSequence;)V
+
+    goto :goto_0
+.end method

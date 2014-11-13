@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="ordinal_icon_app">2</integer>
+    <integer name="ordinal_icon_app_list">0</integer>
+    <integer name="ordinal_screenshot_view">2</integer>
+    <integer name="ordinal_screenshot_preview">1</integer>
+    <integer name="ordinal_promo_size">1</integer>
+    <integer name="gridColumns">2</integer>
+    <integer name="masonryGridColumns">4</integer>
+    <integer name="collapsedDescriptionCharacters">500</integer>
+</resources>

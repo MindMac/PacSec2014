@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="updates_available">
+        <item quantity="other">พร้อมให้อัปเดท</item>
+        <item quantity="one">พร้อมให้อัปเดท</item>
+    </plurals>
+    <plurals name="updates_available_count">
+        <item quantity="other">%d แอปถูกอัปเดทแล้ว</item>
+        <item quantity="one">%d แอปถูกอัปเดทแล้ว</item>
+    </plurals>
+    <plurals name="updated_apps_plural">
+        <item quantity="other">@string/updated_apps</item>
+        <item quantity="one">แอปที่ถูกอัปเดท</item>
+    </plurals>
+    <plurals name="webbuy_notification_title">
+        <item quantity="other">คุณมีแอปที่ซื้อไว้ %d แอป</item>
+        <item quantity="one">คุณได้ซื้อไว้หนึ่งแอป</item>
+    </plurals>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="updates_available">
+        <item quantity="other">التحديثات المتوفرة</item>
+        <item quantity="one">التحديث المتوفر</item>
+    </plurals>
+    <plurals name="updates_available_count">
+        <item quantity="other">تم تحديث %d تطبيقات.</item>
+        <item quantity="one">تم تحديث تطبيق %d.</item>
+    </plurals>
+    <plurals name="updated_apps_plural">
+        <item quantity="other">@string/updated_apps</item>
+        <item quantity="one">التطبيق المحدث</item>
+    </plurals>
+    <plurals name="webbuy_notification_title">
+        <item quantity="other">لقد اشتريت %d تطبيقات</item>
+        <item quantity="one">لقد اشتريت تطبيقًا واحدًا</item>
+    </plurals>
+</resources>

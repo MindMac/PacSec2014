@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_action_share" android:id="@id/menu_share" android:visible="false" android:title="@string/menu_share" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_action_search" android:id="@id/menu_search_view" android:title="@string/menu_search" android:showAsAction="ifRoom|collapseActionView" android:actionViewClass="com.actionbarsherlock.widget.SearchView" />
+    <item android:icon="@drawable/ic_action_search" android:id="@id/menu_search" android:title="@string/menu_search" android:showAsAction="ifRoom" />
+    <item android:id="@id/menu_uninstall" android:visible="false" android:title="@string/uninstall" android:showAsAction="never" />
+    <item android:id="@id/menu_redownload" android:visible="false" android:title="@string/redownload" android:showAsAction="never" />
+    <item android:id="@id/menu_report" android:title="@string/report_app" android:showAsAction="never" />
+    <item android:id="@id/menu_gift" android:visible="false" android:title="@string/menu_gift" android:showAsAction="ifRoom" />
+    <item android:id="@id/menu_test" android:visible="false" android:title="@string/menu_test" android:showAsAction="never" />
+</menu>

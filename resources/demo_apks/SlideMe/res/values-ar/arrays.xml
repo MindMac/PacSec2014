@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="review_rate">
+        <item>جيد جداً</item>
+        <item>سيئ</item>
+        <item>بريد متطفل</item>
+    </string-array>
+    <string-array name="reportReasons">
+        <item>لا يتوافق مع جهازي</item>
+        <item>المحتوى الجنسي</item>
+        <item>انتهاك الملكية الفكرية</item>
+        <item>يتضمن أحقاد</item>
+        <item>@string/other</item>
+    </string-array>
+    <array name="filter_primary">
+        <item>@string/show_all</item>
+        <item>المراجعات الفضلى</item>
+        <item>التنقية عبر النسخة</item>
+        <item>التنقية عبر التصنيف</item>
+    </array>
+    <string-array name="filter_secondary_rating">
+        <item>خمس نجوم</item>
+        <item>أربع نجوم</item>
+        <item>ثلاث نجوم</item>
+        <item>نجمتين</item>
+        <item>نجمة واحدة</item>
+        <item>ما من تصنيف</item>
+    </string-array>
+    <string-array name="front_page_titles">
+        <item>الفئات</item>
+        <item>المميز</item>
+        <item>► APPS</item>
+        <item>أفضل الجديد</item>
+        <item>@string/trending</item>
+        <item>أشهر المدفوع القيمة</item>
+        <item>أشهر المجاني</item>
+        <item>مع فيديو</item>
+        <item>العروض</item>
+        <item>محلي</item>
+    </string-array>
+    <string-array name="my_apps_tab_titles">
+        <item>دولاب التخزين</item>
+        <item>مجاني</item>
+        <item>الإشارات المرجعية</item>
+    </string-array>
+    <string-array name="register_button_titles">
+        <item>تسجيل سريع</item>
+        <item>تسجيل عادي</item>
+    </string-array>
+    <string-array name="register_button_descr">
+        <item>يتيح لك تصفح التطبيقات فقط.</item>
+        <item>يتيح تجربة SlideME الكاملة.</item>
+    </string-array>
+    <string-array name="sort_names">
+        <item>@string/popularity</item>
+        <item>@string/rating</item>
+        <item>@string/last_upd</item>
+        <item>@string/date_added_lat</item>
+        <item>@string/date_added_old</item>
+        <item>@string/alpha_az</item>
+        <item>@string/alpha_za</item>
+    </string-array>
+    <string-array name="approve_options">
+        <item>موافق</item>
+        <item>رفض</item>
+    </string-array>
+    <string-array name="filter_sort_names">
+        <item>@string/relevance</item>
+        <item>@string/popularity</item>
+        <item>@string/rating</item>
+        <item>@string/last_upd</item>
+        <item>@string/date_added_lat</item>
+        <item>@string/date_added_old</item>
+        <item>@string/alpha_az</item>
+        <item>@string/alpha_za</item>
+    </string-array>
+    <string-array name="filter_prices">
+        <item>@string/all</item>
+        <item>@string/paid</item>
+        <item>@string/free</item>
+    </string-array>
+    <string-array name="filter_screens">
+        <item>@string/all</item>
+        <item>@string/phone</item>
+        <item>@string/tablet</item>
+        <item>@string/tv</item>
+    </string-array>
+    <string-array name="filter_parental">
+        <item>@string/show_all</item>
+        <item>@string/esrb_rating_earlychildhood</item>
+        <item>@string/esrb_rating_everyone6plus</item>
+        <item>@string/esrb_rating_everyone10plus</item>
+        <item>@string/esrb_rating_teen13plus</item>
+        <item>@string/esrb_rating_mature</item>
+        <item>@string/esrb_rating_adults18plus</item>
+    </string-array>
+    <string-array name="filter_play">
+        <item>@string/any</item>
+        <item>@string/required</item>
+        <item>@string/not_required</item>
+    </string-array>
+    <string-array name="filter_vibrate">
+        <item>@string/any</item>
+        <item>@string/vibration_enabled_only</item>
+    </string-array>
+</resources>

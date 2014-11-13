@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="updates_available">
+        <item quantity="other">Доступні оновлення</item>
+        <item quantity="one">Доступно оновлення</item>
+    </plurals>
+    <plurals name="updates_available_count">
+        <item quantity="other">%d оновлених програм.</item>
+        <item quantity="one">%d оновлених програм.</item>
+    </plurals>
+    <plurals name="updated_apps_plural">
+        <item quantity="other">@string/updated_apps</item>
+        <item quantity="one">Онов. програма</item>
+    </plurals>
+    <plurals name="webbuy_notification_title">
+        <item quantity="other">Ви придбали додатків: %d</item>
+        <item quantity="one">Ви придбали один додаток</item>
+    </plurals>
+</resources>

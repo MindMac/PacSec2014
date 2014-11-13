@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@id/textView" android:layout_width="wrap_content" android:layout_height="?android:listPreferredItemHeight" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <RatingBar android:id="@id/ratingBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?attr/ratingBarMedium" />
+    <View android:layout_marginTop="8.0dip" android:layout_below="@id/ratingBar" style="@style/separator_vertical" />
+</RelativeLayout>

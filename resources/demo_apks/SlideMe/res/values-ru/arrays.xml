@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="review_rate">
+        <item>Класс</item>
+        <item>Не годится</item>
+        <item>Спам</item>
+    </string-array>
+    <string-array name="reportReasons">
+        <item>Не совместимый с моим устройством</item>
+        <item>Сексуальные сцены</item>
+        <item>Нарушение прав интеллектуальной собственности</item>
+        <item>Злоумышленный</item>
+        <item>@string/other</item>
+    </string-array>
+    <array name="filter_primary">
+        <item>@string/show_all</item>
+        <item>Лучшие обзоры</item>
+        <item>Фильтровать по версиям</item>
+        <item>Фильтровать по рейтингу</item>
+    </array>
+    <string-array name="filter_secondary_rating">
+        <item>5 звездочек</item>
+        <item>4 звездочки</item>
+        <item>3 звездочки</item>
+        <item>2 звездочки</item>
+        <item>1 звездочка</item>
+        <item>Нет оценки</item>
+    </string-array>
+    <string-array name="front_page_titles">
+        <item>КАТЕГОРИИ</item>
+        <item>РЕКОМЕНДУЕМЫЕ</item>
+        <item>► APPS</item>
+        <item>ПОПУЛЯРНЫЕ НОВЫЕ</item>
+        <item>@string/trending</item>
+        <item>ПОПУЛЯРНЫЕ ПЛАТНЫЕ</item>
+        <item>ПОПУЛЯРНЫЕ БЕСПЛАТНЫЕ</item>
+        <item>С ВИДЕО</item>
+        <item>ПРЕДЛОЖЕНИЯ</item>
+        <item>МЕСТНЫЕ</item>
+    </string-array>
+    <string-array name="my_apps_tab_titles">
+        <item>ШКАФЧИК ДЛЯ ХРАНЕНИЯ</item>
+        <item>БЕСПЛАТНЫЕ</item>
+        <item>ЗАКЛАДКИ</item>
+    </string-array>
+    <string-array name="register_button_titles">
+        <item>Быстрая регистрация</item>
+        <item>Обычная регистрация</item>
+    </string-array>
+    <string-array name="register_button_descr">
+        <item>Позволяет только просматривать приложения.</item>
+        <item>Открывает доступ ко всем функциям SlideME.</item>
+    </string-array>
+    <string-array name="sort_names">
+        <item>@string/popularity</item>
+        <item>@string/rating</item>
+        <item>@string/last_upd</item>
+        <item>@string/date_added_lat</item>
+        <item>@string/date_added_old</item>
+        <item>@string/alpha_az</item>
+        <item>@string/alpha_za</item>
+    </string-array>
+    <string-array name="approve_options">
+        <item>Подтвердить</item>
+        <item>Отказаться</item>
+    </string-array>
+    <string-array name="filter_sort_names">
+        <item>@string/relevance</item>
+        <item>@string/popularity</item>
+        <item>@string/rating</item>
+        <item>@string/last_upd</item>
+        <item>@string/date_added_lat</item>
+        <item>@string/date_added_old</item>
+        <item>@string/alpha_az</item>
+        <item>@string/alpha_za</item>
+    </string-array>
+    <string-array name="filter_prices">
+        <item>@string/all</item>
+        <item>@string/paid</item>
+        <item>@string/free</item>
+    </string-array>
+    <string-array name="filter_screens">
+        <item>@string/all</item>
+        <item>@string/phone</item>
+        <item>@string/tablet</item>
+        <item>@string/tv</item>
+    </string-array>
+    <string-array name="filter_parental">
+        <item>@string/show_all</item>
+        <item>@string/esrb_rating_earlychildhood</item>
+        <item>@string/esrb_rating_everyone6plus</item>
+        <item>@string/esrb_rating_everyone10plus</item>
+        <item>@string/esrb_rating_teen13plus</item>
+        <item>@string/esrb_rating_mature</item>
+        <item>@string/esrb_rating_adults18plus</item>
+    </string-array>
+    <string-array name="filter_play">
+        <item>@string/any</item>
+        <item>@string/required</item>
+        <item>@string/not_required</item>
+    </string-array>
+    <string-array name="filter_vibrate">
+        <item>@string/any</item>
+        <item>@string/vibration_enabled_only</item>
+    </string-array>
+</resources>

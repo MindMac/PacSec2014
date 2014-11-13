@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="?backgroundSecondary" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.slideme.sam.manager.view.touchme.SlidingTabSelector android:gravity="center" android:id="@id/layout_filter" android:background="?slidingTabSelectorBackground" android:layout_width="280.0dip" android:layout_height="45.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" android:weightSum="0.9">
+        <TextView android:text="@string/all" android:layout_weight="0.3" style="@style/SlidingTabSelectorLabelStyle" />
+        <TextView android:text="@string/free" android:layout_weight="0.3" style="@style/SlidingTabSelectorLabelStyle" />
+        <TextView android:text="@string/paid" android:layout_weight="0.3" style="@style/SlidingTabSelectorLabelStyle" />
+    </com.slideme.sam.manager.view.touchme.SlidingTabSelector>
+    <android.support.v4.view.ViewPager android:id="@id/viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/adViewsContainer" android:background="@drawable/bg_shadow_inner_horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/ad_banner_height" android:layout_alignParentBottom="true">
+        <com.mopub.mobileads.MoPubView android:id="@id/adview" android:visibility="gone" android:layout_width="@dimen/ad_banner_width" android:layout_height="@dimen/ad_banner_height" android:layout_weight="1.0" />
+    </LinearLayout>
+    <android.support.v4.view.ViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/adViewsContainer" android:layout_alignParentTop="true">
+        <com.slideme.sam.manager.view.extensions.FixedPagerTitleStrip android:id="@id/indicator" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PagerTitleStrip" />
+    </android.support.v4.view.ViewPager>
+    <com.slideme.sam.manager.view.touchme.ClosableTextPanel android:id="@id/bottom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

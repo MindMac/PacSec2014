@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="updates_available">
+        <item quantity="other">Các bản cập nhật hữu dụng</item>
+        <item quantity="one">Bản cập nhật hữu dụng</item>
+    </plurals>
+    <plurals name="updates_available_count">
+        <item quantity="other">%d ứng dụng được cập nhật.</item>
+        <item quantity="one">%d ứng dụng được cập nhật.</item>
+    </plurals>
+    <plurals name="updated_apps_plural">
+        <item quantity="other">@string/updated_apps</item>
+        <item quantity="one">Ứng dụng đã cập nhật</item>
+    </plurals>
+    <plurals name="webbuy_notification_title">
+        <item quantity="other">Bạn đã mua %d ứng dụng</item>
+        <item quantity="one">Bạn đã mua một ứng dụng</item>
+    </plurals>
+</resources>

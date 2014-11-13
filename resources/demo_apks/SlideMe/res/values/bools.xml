@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abs__action_bar_embed_tabs">false</bool>
+    <bool name="abs__split_action_bar_is_narrow">true</bool>
+    <bool name="abs__action_bar_expanded_action_views_exclusive">true</bool>
+    <bool name="abs__config_showMenuShortcutsWhenKeyboardPresent">false</bool>
+    <bool name="abs__config_actionMenuItemAllCaps">true</bool>
+    <bool name="abs__config_allowActionMenuItemTextWithIcon">false</bool>
+    <bool name="ga_autoActivityTracking">true</bool>
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+    <bool name="showHalfScreenCategories">false</bool>
+    <bool name="showDownloadProgressNotifications">true</bool>
+    <bool name="thirdPartyUpdateNotificationSwitch">false</bool>
+    <bool name="showIncompatibilityIndicators">false</bool>
+    <bool name="forceShowAds">false</bool>
+    <bool name="forceShowOffers">false</bool>
+    <bool name="showPlayApps">true</bool>
+    <bool name="skipScreenCompatibillityCheck">true</bool>
+    <bool name="disableCompatibillityNotice">true</bool>
+    <bool name="default_show_only_apps_without_ads">false</bool>
+    <bool name="show_ads_switch_in_prefs">true</bool>
+    <bool name="default_settings_general_limit_screenshots">false</bool>
+    <bool name="default_settings_parental_use_pin_to_download">false</bool>
+    <bool name="default_settings_pin_for_purchases_only">false</bool>
+    <bool name="default_settings_advanced_show_incompatible_apps">true</bool>
+    <bool name="default_settings_advanced_push">true</bool>
+    <bool name="default_settings_advanced_auto_download_new_version">true</bool>
+</resources>

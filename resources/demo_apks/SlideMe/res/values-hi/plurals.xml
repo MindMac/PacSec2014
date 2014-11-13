@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="updates_available">
+        <item quantity="other">अपडेट उपलब्ध है</item>
+        <item quantity="one">अपडेट उपलब्ध है</item>
+    </plurals>
+    <plurals name="updates_available_count">
+        <item quantity="other">%d ऐप्प अपडेट किए गये हैं.</item>
+        <item quantity="one">%d ऐप्प अपडेट किया गया है.</item>
+    </plurals>
+    <plurals name="updated_apps_plural">
+        <item quantity="other">@string/updated_apps</item>
+        <item quantity="one">अपडेटेड ऐप्प</item>
+    </plurals>
+    <plurals name="webbuy_notification_title">
+        <item quantity="other">आपने %d एप्प खरीदे हैं</item>
+        <item quantity="one">आपने एक एप्प खरीदा है</item>
+    </plurals>
+</resources>

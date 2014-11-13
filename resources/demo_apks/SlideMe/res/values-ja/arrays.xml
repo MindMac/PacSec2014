@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="review_rate">
+        <item>良い</item>
+        <item>良くない</item>
+        <item>スパム</item>
+    </string-array>
+    <string-array name="reportReasons">
+        <item>私の機種とは互換性がありません</item>
+        <item>性的コンテンツ</item>
+        <item>著作権侵害</item>
+        <item>悪質</item>
+        <item>@string/other</item>
+    </string-array>
+    <array name="filter_primary">
+        <item>@string/show_all</item>
+        <item>ベストレビュー</item>
+        <item>バージョンでフィルターする</item>
+        <item>評価でフィルターする</item>
+    </array>
+    <string-array name="filter_secondary_rating">
+        <item>5つ星</item>
+        <item>4つ星</item>
+        <item>3つ星</item>
+        <item>2つ星</item>
+        <item>1つ星</item>
+        <item>評価無し</item>
+    </string-array>
+    <string-array name="front_page_titles">
+        <item>カテゴリー</item>
+        <item>機能</item>
+        <item>► APPS</item>
+        <item>トップニュー</item>
+        <item>@string/trending</item>
+        <item>トップペイド</item>
+        <item>無料版トップ</item>
+        <item>ビデオで</item>
+        <item>オファー</item>
+        <item>ローカル</item>
+    </string-array>
+    <string-array name="my_apps_tab_titles">
+        <item>STORAGELOCKER</item>
+        <item>無料</item>
+        <item>ブックマーク</item>
+    </string-array>
+    <string-array name="register_button_titles">
+        <item>クイック登録</item>
+        <item>標準登録</item>
+    </string-array>
+    <string-array name="register_button_descr">
+        <item>アプリのブラウズのみを許可する</item>
+        <item>フルSlideMEエクスペリエンスを有効にする。</item>
+    </string-array>
+    <string-array name="sort_names">
+        <item>@string/popularity</item>
+        <item>@string/rating</item>
+        <item>@string/last_upd</item>
+        <item>@string/date_added_lat</item>
+        <item>@string/date_added_old</item>
+        <item>@string/alpha_az</item>
+        <item>@string/alpha_za</item>
+    </string-array>
+    <string-array name="approve_options">
+        <item>承認する</item>
+        <item>拒否</item>
+    </string-array>
+    <string-array name="filter_sort_names">
+        <item>@string/relevance</item>
+        <item>@string/popularity</item>
+        <item>@string/rating</item>
+        <item>@string/last_upd</item>
+        <item>@string/date_added_lat</item>
+        <item>@string/date_added_old</item>
+        <item>@string/alpha_az</item>
+        <item>@string/alpha_za</item>
+    </string-array>
+    <string-array name="filter_prices">
+        <item>@string/all</item>
+        <item>@string/paid</item>
+        <item>@string/free</item>
+    </string-array>
+    <string-array name="filter_screens">
+        <item>@string/all</item>
+        <item>@string/phone</item>
+        <item>@string/tablet</item>
+        <item>@string/tv</item>
+    </string-array>
+    <string-array name="filter_parental">
+        <item>@string/show_all</item>
+        <item>@string/esrb_rating_earlychildhood</item>
+        <item>@string/esrb_rating_everyone6plus</item>
+        <item>@string/esrb_rating_everyone10plus</item>
+        <item>@string/esrb_rating_teen13plus</item>
+        <item>@string/esrb_rating_mature</item>
+        <item>@string/esrb_rating_adults18plus</item>
+    </string-array>
+    <string-array name="filter_play">
+        <item>@string/any</item>
+        <item>@string/required</item>
+        <item>@string/not_required</item>
+    </string-array>
+    <string-array name="filter_vibrate">
+        <item>@string/any</item>
+        <item>@string/vibration_enabled_only</item>
+    </string-array>
+</resources>

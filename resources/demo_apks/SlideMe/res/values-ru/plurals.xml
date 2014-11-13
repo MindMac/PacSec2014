@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="updates_available">
+        <item quantity="other">Доступные обновления</item>
+        <item quantity="one">Доступное обновление</item>
+    </plurals>
+    <plurals name="updates_available_count">
+        <item quantity="other">%d приложения обновлены.</item>
+        <item quantity="one">%d приложение обновлено.</item>
+    </plurals>
+    <plurals name="updated_apps_plural">
+        <item quantity="other">@string/updated_apps</item>
+        <item quantity="one">Обновленное приложение</item>
+    </plurals>
+    <plurals name="webbuy_notification_title">
+        <item quantity="other">Приобретенных приложений: %d</item>
+        <item quantity="one">Вы приобрели одно приложение</item>
+    </plurals>
+</resources>

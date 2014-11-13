@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="?backgroundSecondary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.8">
+        <Spinner android:entries="@array/filter_primary" android:id="@id/primarySpinner" android:layout_width="wrap_content" android:layout_height="@dimen/filterSpinnerHeight" android:layout_marginLeft="8.0dip" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center_horizontal" android:id="@id/secondaryContainer" android:background="@drawable/bg_clickable_borderless" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.2">
+        <Spinner android:id="@id/secondarySpinner" android:layout_width="wrap_content" android:layout_height="@dimen/filterSpinnerHeight" />
+    </LinearLayout>
+</LinearLayout>

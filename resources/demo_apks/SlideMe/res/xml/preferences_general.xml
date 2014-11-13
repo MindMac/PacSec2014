@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/header_settings_general">
+        <com.slideme.sam.manager.view.preference.ThemePreference android:entries="@array/themeEntries" android:title="@string/menu_themes" android:key="@string/key_settings_theme" android:defaultValue="@integer/default_settings_general_theme" android:entryValues="@array/themeValues" />
+        <com.slideme.sam.manager.view.preference.AppsSeekBarPreference android:title="@string/title_settings_general_apps_per_page" android:key="@string/key_settings_general_apps_per_page" android:defaultValue="@integer/default_settings_general_apps_per_page" android:dialogTitle="@string/title_settings_general_apps_per_page" />
+        <CheckBoxPreference android:title="@string/title_settings_limit_screenshots" android:key="@string/key_settings_limit_screenshots" android:defaultValue="@bool/default_settings_general_limit_screenshots" />
+        <com.slideme.sam.manager.view.preference.ScreenshotsSeekBarPreference android:title="@string/title_settings_general_x_screenshots" android:key="@string/key_settings_screenshot_count" android:dependency="@string/key_settings_limit_screenshots" android:defaultValue="@integer/default_settings_general_screenshot_count" android:dialogTitle="@string/title_settings_general_x_screenshots" />
+        <CheckBoxPreference android:title="@string/title_settings_show_apps_with_ads" android:key="@string/key_settings_show_only_apps_without_ads" android:summary="@string/summary_settings_show_apps_with_ads" android:defaultValue="@bool/default_show_only_apps_without_ads" />
+    </PreferenceCategory>
+</PreferenceScreen>

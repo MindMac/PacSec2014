@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="updates_available">
+        <item quantity="other">Päivityksiä saatavilla</item>
+        <item quantity="one">Päivitys saatavilla</item>
+    </plurals>
+    <plurals name="updates_available_count">
+        <item quantity="other">%d sovellukset päivitetty.</item>
+        <item quantity="one">%d sovellus päivitetty.</item>
+    </plurals>
+    <plurals name="updated_apps_plural">
+        <item quantity="other">@string/updated_apps</item>
+        <item quantity="one">Päivitetty sovellus</item>
+    </plurals>
+    <plurals name="webbuy_notification_title">
+        <item quantity="other">Olet ostanut %d sovellusta</item>
+        <item quantity="one">Olet ostanut yhden sovelluksen</item>
+    </plurals>
+</resources>

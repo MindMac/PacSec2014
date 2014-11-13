@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="updates_available">
+        <item quantity="other">可用更新</item>
+        <item quantity="one">可用更新</item>
+    </plurals>
+    <plurals name="updates_available_count">
+        <item quantity="other">%d應用程式已更新。</item>
+        <item quantity="one">%d應用程式已更新。</item>
+    </plurals>
+    <plurals name="updated_apps_plural">
+        <item quantity="other">@string/updated_apps</item>
+        <item quantity="one">已更新應用程式</item>
+    </plurals>
+    <plurals name="webbuy_notification_title">
+        <item quantity="other">你已購買%d個應用程式</item>
+        <item quantity="one">你已購買一個應用程式</item>
+    </plurals>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" android:isScrollContainer="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:paddingBottom="16.0dip" android:layout_width="@dimen/loginWidth" android:layout_height="0.0dip">
+        <ImageView android:layout_width="fill_parent" android:layout_height="@dimen/loginLogoHeight" android:src="@drawable/ic_logo" android:scaleType="centerInside" />
+        <EditText android:id="@id/user_edit" android:saveEnabled="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-16.0dip" android:hint="@string/username" android:lines="1" android:inputType="textVisiblePassword" android:imeOptions="actionNext">
+            <requestFocus />
+        </EditText>
+        <EditText android:id="@id/pass_edit" android:saveEnabled="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:hint="@string/password" android:lines="1" android:selectAllOnFocus="true" android:inputType="textPassword" android:imeOptions="actionGo" />
+        <Button android:textStyle="bold" android:textColor="?android:textColorPrimary" android:id="@id/login" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/login" style="@style/Widget.Button.SlideMe.Green" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
+            <View android:id="@id/anchor" android:layout_width="8.0dip" android:layout_height="1.0dip" android:layout_centerInParent="true" />
+            <Button android:id="@id/forgotPassword" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/forgot_password" android:layout_toLeftOf="@id/anchor" android:layout_alignParentLeft="true" style="@style/Widget.Button.SlideMe" />
+            <Button android:id="@id/register" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/register" android:layout_toRightOf="@id/anchor" android:layout_alignParentRight="true" style="@style/Widget.Button.SlideMe" />
+        </RelativeLayout>
+        <Button android:id="@id/facebook_register" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/facebook_login" style="@style/Widget.Button.SlideMe" />
+    </LinearLayout>
+</ScrollView>

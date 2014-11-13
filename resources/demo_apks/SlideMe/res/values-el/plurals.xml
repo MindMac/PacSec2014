@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="updates_available">
+        <item quantity="other">Ενημερώσεις διαθέσιμες</item>
+        <item quantity="one">Ενημέρωση διαθέσιμη</item>
+    </plurals>
+    <plurals name="updates_available_count">
+        <item quantity="other">%d εφαρμογές ενημερώθηκαν.</item>
+        <item quantity="one">%d εφαρμογή ενημερώθηκε.</item>
+    </plurals>
+    <plurals name="updated_apps_plural">
+        <item quantity="other">@string/updated_apps</item>
+        <item quantity="one">Ενημερωμένη εφαρμογή</item>
+    </plurals>
+    <plurals name="webbuy_notification_title">
+        <item quantity="other">Έχετε αγοράσει %d εφαρμογές</item>
+        <item quantity="one">Έχετε αγοράσει μια εφαρμογή</item>
+    </plurals>
+</resources>

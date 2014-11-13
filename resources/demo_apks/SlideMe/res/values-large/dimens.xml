@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="abs__dialog_min_width_major">55.000008%</item>
+    <item type="dimen" name="abs__dialog_min_width_minor">79.99999%</item>
+    <dimen name="loginWidth">350.0dip</dimen>
+    <dimen name="loginLogoHeight">250.0dip</dimen>
+    <dimen name="ratingChartPaddings">16.0dip</dimen>
+    <dimen name="app_details_icon_size">96.0dip</dimen>
+</resources>

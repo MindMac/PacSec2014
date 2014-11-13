@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/notification_layout" android:background="@drawable/ic_tip_pinker" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="32.0dip" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:ellipsize="end" android:id="@android:id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" style="@style/Widget.TextView.Slideme.GreenBackground" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="@dimen/textSizeMicro" android:textColor="#ff444444" android:id="@android:id/text2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.TextView.Slideme.GreenBackground" />
+    </LinearLayout>
+    <ImageView android:id="@android:id/button1" android:background="@drawable/bg_clickable_borderless" android:layout_width="@dimen/ad_banner_height" android:layout_height="@dimen/ad_banner_height" android:src="@drawable/ic_close" android:scaleType="centerInside" android:adjustViewBounds="true" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/header_settings_local">
+        <com.slideme.sam.manager.view.preference.CountryListPreference android:id="@id/countries" android:title="@string/title_settings_general_countries" android:key="@string/key_settings_general_country" android:summary="@string/summary_settings_general_countries" android:defaultValue="@string/default_settings_general_country" />
+        <com.slideme.sam.manager.view.preference.LanguageListPreference android:id="@id/languages" android:title="@string/title_settings_general_languages" android:key="@string/key_settings_general_language" android:summary="@string/summary_settings_general_languages" android:defaultValue="@string/default_settings_general_language" />
+        <com.slideme.sam.manager.view.preference.CurrencyListPreference android:id="@id/currencies" android:title="@string/title_settings_local_currency" android:key="@string/key_settings_currency" android:summary="@string/summary_settings_local_currency" />
+    </PreferenceCategory>
+</PreferenceScreen>

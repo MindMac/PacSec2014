@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:slideme="http://schemas.android.com/apk/res/com.slideme.sam.manager">
+    <LinearLayout android:id="@id/adViewsContainer" android:background="@drawable/bg_shadow_inner_horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/ad_banner_height" android:layout_alignParentBottom="true">
+        <com.mopub.mobileads.MoPubView android:id="@id/adview" android:visibility="gone" android:layout_width="@dimen/ad_banner_width" android:layout_height="@dimen/ad_banner_height" android:layout_weight="1.0" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/sticky_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/adViewsContainer" android:layout_alignParentTop="true" android:layout_alignWithParentIfMissing="true">
+        <com.slideme.sam.manager.view.touchme.ObservableScrollView android:id="@id/scroller" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+            <LinearLayout android:orientation="vertical" android:id="@id/content_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+                <RelativeLayout android:background="?backgroundSecondary" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:id="@id/title_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/bookmarked" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+                        <TextView android:textStyle="bold" android:ellipsize="end" android:id="@id/app_name" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.TextView.Slideme.Form.Title" />
+                        <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="@dimen/textSizeMicro" android:id="@id/version" android:paddingLeft="4.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:layout_weight="1.0" />
+                    </LinearLayout>
+                    <RatingBar android:id="@id/rating_app" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_below="@id/title_container" android:layout_alignParentLeft="true" style="?attr/ratingBarSmall" />
+                    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/vendor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/rating_app" android:layout_alignParentLeft="true" />
+                    <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="@dimen/textSizeMicro" android:id="@id/lastUpdated" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/vendor" android:layout_alignParentLeft="true" />
+                    <ToggleButton android:id="@id/bookmarked" android:background="@drawable/bg_bookmark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="" android:textOff="" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <View android:id="@id/placeholder" android:layout_width="fill_parent" android:layout_height="93.0dip" />
+                <LinearLayout android:orientation="vertical" android:background="?backgroundSecondary" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <View android:background="#33ffffff" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                    <RelativeLayout android:orientation="vertical" android:id="@id/progressContainer" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageButton android:id="@id/downloadCancel" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginBottom="8.0dip" android:src="@android:drawable/ic_delete" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/Widget.Button.SlideMe" />
+                        <ProgressBar android:id="@id/downloadProgress" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="10.0dip" android:layout_toLeftOf="@id/downloadCancel" android:layout_centerVertical="true" style="@style/Widget.Slideme.ProgressBar" />
+                        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/downloadText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+                        <View android:layout_below="@id/downloadCancel" style="@style/separator_vertical" />
+                    </RelativeLayout>
+                    <com.slideme.sam.manager.view.touchme.MyReview android:id="@id/myReview" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <com.slideme.sam.manager.view.touchme.ExpandableTextContainer android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorPrimary" android:id="@id/description" android:background="@drawable/bg_clickable_borderless" android:paddingLeft="8.0dip" android:paddingTop="8.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/loading" slideme:collapsedCharCount="@integer/collapsedDescriptionCharacters" />
+                    <FrameLayout android:background="@color/dark_tertiary" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/screenshotGalleryHeight" android:layout_marginLeft="8.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="3.0dip" android:foreground="@drawable/bg_shadow_inner_frame">
+                        <com.slideme.sam.manager.view.touchme.SafeViewFlipper android:id="@id/flipper2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:inAnimation="@android:anim/fade_in" android:outAnimation="@android:anim/fade_out">
+                            <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@android:color/white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/loading" />
+                            <HorizontalScrollView android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                                <com.slideme.sam.manager.view.touchme.ScreenshotContainer android:gravity="center" android:id="@id/screenshots" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+                            </HorizontalScrollView>
+                        </com.slideme.sam.manager.view.touchme.SafeViewFlipper>
+                    </FrameLayout>
+                    <View style="@style/separator_vertical" />
+                    <com.slideme.sam.manager.view.touchme.ReviewChartView android:id="@id/reviewChart" android:background="@drawable/bg_layer_dark" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <RelativeLayout android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/rating_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                        <View android:id="@id/sep_small" android:visibility="gone" android:layout_toRightOf="@id/rating_count" android:layout_alignTop="@id/rating_count" android:layout_alignBottom="@id/rating_count" android:layout_centerVertical="true" style="@style/separator_horizontal" />
+                        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/download_count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/sep_small" android:layout_centerVertical="true" />
+                        <com.slideme.sam.manager.view.touchme.MiscAppInfo android:id="@id/miscAppInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                    </RelativeLayout>
+                    <com.slideme.sam.manager.view.touchme.ExpandableTitledContainer android:id="@id/changelog_container" android:layout="@layout/expander_layout_changelog" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_expander_changelog" android:title="@string/changelog" />
+                    <com.slideme.sam.manager.view.touchme.ExpandableTitledContainer android:id="@id/reviews_container" android:layout="@layout/expander_layout_reviews" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_expander_rating" android:title="@string/reviews_first_cap" />
+                    <com.slideme.sam.manager.view.touchme.ExpandableTitledContainer android:id="@id/dev_container" android:layout="@layout/expander_layout_developer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_expander_dev" android:title="@string/developer" />
+                    <com.slideme.sam.manager.view.touchme.ExpandableTitledContainer android:id="@id/similar_container" android:layout="@layout/expander_layout_similar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_expander_similar" android:title="@string/similar_apps" />
+                    <com.slideme.sam.manager.view.touchme.ExpandableTitledContainer android:id="@id/permissions_container" android:layout="@layout/expander_layout_permissions" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_expander_permissions" android:title="@string/permissions" />
+                    <com.slideme.sam.manager.view.touchme.ExpandableTitledContainer android:id="@id/languages_container" android:layout="@layout/expander_layout_languages" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_expander_languages" android:title="@string/languages" />
+                </LinearLayout>
+            </LinearLayout>
+        </com.slideme.sam.manager.view.touchme.ObservableScrollView>
+        <FrameLayout android:id="@id/sticky" android:background="?backgroundPrimary" android:clickable="true" android:layout_width="fill_parent" android:layout_height="93.0dip">
+            <RelativeLayout android:background="@drawable/bg_shadow_inner_horizontal" android:paddingLeft="13.0dip" android:paddingTop="8.0dip" android:paddingRight="13.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.slideme.sam.manager.view.touchme.StaticSizeImageView android:id="@id/app_icon" android:layout_width="@dimen/app_details_icon_size" android:layout_height="@dimen/app_details_icon_size" android:scaleType="centerInside" android:adjustViewBounds="true" android:layout_alignParentLeft="true" />
+                <com.slideme.sam.manager.view.touchme.DownloadButton android:id="@id/download" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </FrameLayout>
+    </FrameLayout>
+</RelativeLayout>

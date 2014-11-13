@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="updates_available">
+        <item quantity="other">Güncellemeler mevcut</item>
+        <item quantity="one">Güncelleme mevcut</item>
+    </plurals>
+    <plurals name="updates_available_count">
+        <item quantity="other">%d uygulama güncellendi.</item>
+        <item quantity="one">%d uygulaması güncellendi.</item>
+    </plurals>
+    <plurals name="updated_apps_plural">
+        <item quantity="other">@string/updated_apps</item>
+        <item quantity="one">Güncellenen uygulama</item>
+    </plurals>
+    <plurals name="webbuy_notification_title">
+        <item quantity="other">Satın aldığınız %d uygulama var</item>
+        <item quantity="one">Bir uygulama satın aldınız</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_action_search" android:id="@id/menu_search_view" android:title="@string/menu_search" android:showAsAction="ifRoom|collapseActionView" android:actionViewClass="com.actionbarsherlock.widget.SearchView" />
+    <item android:icon="@drawable/ic_action_search" android:id="@id/menu_search" android:title="@string/menu_search" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_action_sort" android:id="@id/sort" android:title="@string/sort" android:showAsAction="ifRoom" />
+</menu>

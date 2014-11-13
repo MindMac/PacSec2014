@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/header_settings_cache">
+        <com.slideme.sam.manager.view.preference.ClearCacheDialogPreference android:title="@string/title_settings_general_clear_cache" android:summary="@string/summary_settings_general_clear_cache" android:dialogTitle="@string/title_settings_general_clear_cache" android:dialogMessage="@string/summary_settings_general_clear_internal_data" android:positiveButtonText="@android:string/ok" android:negativeButtonText="@android:string/cancel" />
+        <com.slideme.sam.manager.view.preference.ClearHistoryDialogPreference android:title="@string/title_settings_general_clear_search_history" android:summary="@string/summary_settings_general_clear_search_history" android:dialogTitle="@string/title_settings_general_clear_search_history" android:dialogMessage="@string/summary_settings_general_clear_search_history_message" android:positiveButtonText="@android:string/ok" android:negativeButtonText="@android:string/cancel" />
+    </PreferenceCategory>
+</PreferenceScreen>

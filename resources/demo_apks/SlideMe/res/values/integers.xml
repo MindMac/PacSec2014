@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="google_play_services_version">4452000</integer>
+    <integer name="abs__max_action_buttons">2</integer>
+    <integer name="ordinal_icon_app">2</integer>
+    <integer name="ordinal_icon_app_list">2</integer>
+    <integer name="ordinal_screenshot_view">2</integer>
+    <integer name="ordinal_screenshot_preview">2</integer>
+    <integer name="ordinal_promo_size">2</integer>
+    <integer name="gridColumns">1</integer>
+    <integer name="masonryGridColumns">2</integer>
+    <integer name="fixedGridLines">3</integer>
+    <integer name="collapsedDescriptionCharacters">200</integer>
+    <integer name="priceTextSize">15</integer>
+    <integer name="default_settings_general_apps_per_page">30</integer>
+    <integer name="default_settings_general_theme">0</integer>
+    <integer name="default_settings_general_screenshot_count">3</integer>
+</resources>

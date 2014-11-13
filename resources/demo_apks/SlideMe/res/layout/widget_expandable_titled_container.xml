@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.slideme.sam.manager.view.touchme.ForegroundRelativeLayout android:id="@id/title_layout" android:background="@drawable/bg_expander_title" android:padding="8.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="50.0dip" android:foreground="@drawable/bg_clickable_borderless">
+        <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/icon" android:layout_centerVertical="true" style="@style/Widget.TextView.Slideme.GreenBackground" />
+        <ImageView android:id="@id/indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_expander_indicator_open" android:adjustViewBounds="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@android:color/black" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_toLeftOf="@id/indicator" android:layout_centerVertical="true" />
+    </com.slideme.sam.manager.view.touchme.ForegroundRelativeLayout>
+    <FrameLayout android:id="@id/container_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

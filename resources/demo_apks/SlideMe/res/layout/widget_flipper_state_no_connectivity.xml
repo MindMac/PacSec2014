@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/no_con_container" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="@dimen/loginWidth" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_no_connectivity" />
+        <TextView android:textSize="20.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/conn_error_title" style="@style/Widget.TextView.Slideme.Form.Title" />
+        <Button android:id="@id/refresh" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="44.0dip" android:maxWidth="100.0dip" android:text="@string/retry" style="@style/Widget.Button.SlideMe" />
+        <Button android:id="@id/wifiSettings" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:maxWidth="100.0dip" android:text="@string/wifi_settings" style="@style/Widget.Button.SlideMe" />
+    </LinearLayout>
+</ScrollView>

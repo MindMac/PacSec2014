@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ExpandableListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="true" style="@style/gridStyle" />
+    <ProgressBar android:id="@android:id/empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:progressBarStyleLarge" />
+</RelativeLayout>

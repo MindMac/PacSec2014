@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/television" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_contextual_tv" android:scaleType="centerInside" android:adjustViewBounds="true" />
+    <ImageView android:id="@id/tablet" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_contextual_tablet" android:scaleType="centerInside" android:adjustViewBounds="true" />
+    <ImageView android:id="@id/smartphone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_contextual_phone" android:scaleType="centerInside" android:adjustViewBounds="true" />
+    <ImageView android:id="@id/includesAds" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_contextual_ads" android:scaleType="centerInside" android:adjustViewBounds="true" />
+    <ImageView android:id="@id/virusFree" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_contextual_virus_free" android:scaleType="centerInside" android:adjustViewBounds="true" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.slideme.sam.manager.view.touchme.BeveledRelativeLayout android:background="?backgroundListItemEven" android:padding="8.0dip" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/top" android:layout_width="fill_parent" android:layout_height="@dimen/app_list_item_height" android:layout_alignParentTop="true">
+        <com.slideme.sam.manager.view.touchme.StaticSizeImageView android:id="@id/icon" android:layout_width="@dimen/app_list_item_icon_size" android:layout_height="@dimen/app_list_item_icon_size" android:layout_marginRight="8.0dip" android:scaleType="centerInside" android:adjustViewBounds="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="#ffffffff" android:gravity="center" android:id="@id/price" android:background="@drawable/bg_app_count" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="60.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/price" android:layout_toRightOf="@id/icon" android:layout_centerVertical="true">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="end" android:id="@id/app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_alignParentTop="true" />
+            <RatingBar android:id="@id/rating" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/app_name" android:layout_alignLeft="@id/app_name" style="?attr/ratingBarSmall" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:ellipsize="none" android:id="@id/category" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_below="@id/rating" android:layout_alignLeft="@id/rating" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <com.slideme.sam.manager.view.touchme.YoutubePreviewButton android:id="@id/video" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" android:maxWidth="@dimen/video_item_width" android:maxHeight="@dimen/video_item_height" android:layout_below="@id/top" android:layout_centerHorizontal="true" />
+</com.slideme.sam.manager.view.touchme.BeveledRelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="updates_available">
+        <item quantity="other">Actualizări disponibile</item>
+        <item quantity="one">Actualizare disponibilă</item>
+    </plurals>
+    <plurals name="updates_available_count">
+        <item quantity="other">%d din aplicaţii au fost actualizate..</item>
+        <item quantity="one">%d din aplicaţie a fost actualizat.</item>
+    </plurals>
+    <plurals name="updated_apps_plural">
+        <item quantity="other">@string/updated_apps</item>
+        <item quantity="one">Aplicaţie actualizată</item>
+    </plurals>
+    <plurals name="webbuy_notification_title">
+        <item quantity="other">Aţi cumpărat %d aplicaţii</item>
+        <item quantity="one">Aţi cumpărat o aplicaţie</item>
+    </plurals>
+</resources>

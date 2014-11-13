@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="updates_available">
+        <item quantity="other">Frissítések elérhetőek</item>
+        <item quantity="one">Frissítés elérhető</item>
+    </plurals>
+    <plurals name="updates_available_count">
+        <item quantity="other">%d alkalmazás frissítve.</item>
+        <item quantity="one">%d alkalmazás frissítve.</item>
+    </plurals>
+    <plurals name="updated_apps_plural">
+        <item quantity="other">@string/updated_apps</item>
+        <item quantity="one">Frissített alkalmazás</item>
+    </plurals>
+    <plurals name="webbuy_notification_title">
+        <item quantity="other">Ön %d alkalmazásokat vásárolt meg</item>
+        <item quantity="one">Ön megvásárolt egy alkalmazást</item>
+    </plurals>
+</resources>

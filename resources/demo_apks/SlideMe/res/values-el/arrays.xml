@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="review_rate">
+        <item>Τέλεια</item>
+        <item>Αποτυχία</item>
+        <item>Spam</item>
+    </string-array>
+    <string-array name="reportReasons">
+        <item>Ασυμβότητα με την συσκευή μου</item>
+        <item>Σεξουαλικό περιεχόμενο</item>
+        <item>Παραβίαση πνευματικής ιδιοκτησίας</item>
+        <item>Κακόβουλη</item>
+        <item>@string/other</item>
+    </string-array>
+    <array name="filter_primary">
+        <item>@string/show_all</item>
+        <item>Καλύτερες αξιολογήσεις</item>
+        <item>Φιλτράρισμα κατά έκδοση</item>
+        <item>Φιλτράρισμα κατά αξιολόγηση</item>
+    </array>
+    <string-array name="filter_secondary_rating">
+        <item>5 αστέρια</item>
+        <item>4 αστέρια</item>
+        <item>3 αστέρια</item>
+        <item>2 αστέρια</item>
+        <item>1 αστέρι</item>
+        <item>Καμία αξιολόγηση</item>
+    </string-array>
+    <string-array name="front_page_titles">
+        <item>ΚΑΤΗΓΟΡΙΕΣ</item>
+        <item>ΕΠΙΛΕΓΜΕΝΑ</item>
+        <item>► APPS</item>
+        <item>ΚΟΡΥΦΑΙΑ ΝΕΑ</item>
+        <item>@string/trending</item>
+        <item>ΚΟΡΥΦΑΙΑ ΕΠΙ ΠΛΗΡΩΜΗ</item>
+        <item>ΚΟΡΥΦΑΙΑ ΔΩΡΕΑΝ</item>
+        <item>ΜΕ ΒΙΝΤΕΟ</item>
+        <item>ΠΡΟΣΦΟΡΕΣ</item>
+        <item>ΤΟΠΙΚΑ</item>
+    </string-array>
+    <string-array name="my_apps_tab_titles">
+        <item>ΑΠΟΘΗΚΗ</item>
+        <item>ΔΩΡΕΑΝ</item>
+        <item>ΣΕΛΙΔΟΔΕΙΚΤΕΣ</item>
+    </string-array>
+    <string-array name="register_button_titles">
+        <item>Γρήγορη εγγραφή</item>
+        <item>Κανονική εγγραφή</item>
+    </string-array>
+    <string-array name="register_button_descr">
+        <item>Σας επιτρέπεται μόνο να περιηγηθείτε σε εφαρμογές.</item>
+        <item>Επιτρέπει την πλήρη εμπειρία SlideME.</item>
+    </string-array>
+    <string-array name="sort_names">
+        <item>@string/popularity</item>
+        <item>@string/rating</item>
+        <item>@string/last_upd</item>
+        <item>@string/date_added_lat</item>
+        <item>@string/date_added_old</item>
+        <item>@string/alpha_az</item>
+        <item>@string/alpha_za</item>
+    </string-array>
+    <string-array name="approve_options">
+        <item>Έγκριση</item>
+        <item>Άρνηση</item>
+    </string-array>
+    <string-array name="filter_sort_names">
+        <item>@string/relevance</item>
+        <item>@string/popularity</item>
+        <item>@string/rating</item>
+        <item>@string/last_upd</item>
+        <item>@string/date_added_lat</item>
+        <item>@string/date_added_old</item>
+        <item>@string/alpha_az</item>
+        <item>@string/alpha_za</item>
+    </string-array>
+    <string-array name="filter_prices">
+        <item>@string/all</item>
+        <item>@string/paid</item>
+        <item>@string/free</item>
+    </string-array>
+    <string-array name="filter_screens">
+        <item>@string/all</item>
+        <item>@string/phone</item>
+        <item>@string/tablet</item>
+        <item>@string/tv</item>
+    </string-array>
+    <string-array name="filter_parental">
+        <item>@string/show_all</item>
+        <item>@string/esrb_rating_earlychildhood</item>
+        <item>@string/esrb_rating_everyone6plus</item>
+        <item>@string/esrb_rating_everyone10plus</item>
+        <item>@string/esrb_rating_teen13plus</item>
+        <item>@string/esrb_rating_mature</item>
+        <item>@string/esrb_rating_adults18plus</item>
+    </string-array>
+    <string-array name="filter_play">
+        <item>@string/any</item>
+        <item>@string/required</item>
+        <item>@string/not_required</item>
+    </string-array>
+    <string-array name="filter_vibrate">
+        <item>@string/any</item>
+        <item>@string/vibration_enabled_only</item>
+    </string-array>
+</resources>

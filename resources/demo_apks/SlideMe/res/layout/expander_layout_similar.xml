@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:slideme="http://schemas.android.com/apk/res/com.slideme.sam.manager">
+    <com.slideme.sam.manager.view.touchme.ApplicationListView android:id="@id/similarAppList" android:layout_width="fill_parent" android:layout_height="wrap_content" slideme:numApps="4" slideme:emptyText="@string/empty_apps" />
+</LinearLayout>

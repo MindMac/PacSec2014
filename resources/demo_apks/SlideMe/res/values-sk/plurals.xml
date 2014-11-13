@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="updates_available">
+        <item quantity="other">Sú dostupné aktualizácie</item>
+        <item quantity="one">Je dostupná aktualizácia</item>
+    </plurals>
+    <plurals name="updates_available_count">
+        <item quantity="other">Aktualizovali sa aplikácie (%d).</item>
+        <item quantity="one">Aktualizovala sa %d aplikácia.</item>
+    </plurals>
+    <plurals name="updated_apps_plural">
+        <item quantity="other">@string/updated_apps</item>
+        <item quantity="one">Aktualizovaná aplikácia</item>
+    </plurals>
+    <plurals name="webbuy_notification_title">
+        <item quantity="other">Kúpené aplikácie – %d</item>
+        <item quantity="one">Kúpili ste si jednu aplikáciu</item>
+    </plurals>
+</resources>
